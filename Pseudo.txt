@@ -55,7 +55,7 @@ module main()
         if(option==1)
             declare int bulan;
             declare float tabungan,bunga,bungaPerTahun,sum;
-
+            
             display"DEPOSITO"
 
             //validasi tabungan tidak boleh 0 atau negative
@@ -91,7 +91,6 @@ module main()
                 bungaPerTahun = (bunga/100)/12
                 sum = tabungan + Deposito(tabungan,bungaPerTahun)
                 tabungan = sum
-
                 display"| (x) | (bunga) | (sum) |"
                 write ptr "| (x) | (bunga) | (sum) |"                
             end while
@@ -108,7 +107,6 @@ module main()
             declare int bulan
             declare float tabungan,bunga,bungaPerTahun,sum,summary,show
             declare string namaTabungan
-
             display"TABUNGAN BERENCANA"
 
             //validasi nama tabungan minimal 5 karakter

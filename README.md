@@ -1,3 +1,3 @@
 # Bee_Bank.AOL
 *JANGAN DI COPY PLEK!*
-DO = NANGES
+\nDO = NANGES
